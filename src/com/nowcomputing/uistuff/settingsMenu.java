@@ -32,7 +32,7 @@ import javax.swing.JTextField;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 
-public class aa extends dialogPanel implements ActionListener {
+public class settingsMenu extends dialogPanel implements ActionListener {
    private static final Logger j = Logger.getLogger(Utils.class.getName());
    private ResourceBundle[] k = LocaleUtil.d();
    private ArrayList l = new ArrayList();
@@ -52,7 +52,7 @@ public class aa extends dialogPanel implements ActionListener {
    JRadioButton i;
    private ButtonGroup w;
 
-   aa(GBComms var1, GamebandConfig var2) {
+   settingsMenu(GBComms var1, GamebandConfig var2) {
       this.a = new JRadioButton(this.m);
       this.b = new JRadioButton(this.n);
       this.o = new ButtonGroup();
